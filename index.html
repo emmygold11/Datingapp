@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../all/all.min.css">
+</head>
+<link rel="stylesheet" href="index.css" type="text/css">
+<body>
+
+        <div class="center">
+
+
+            <label id="dark-change"></label>
+    
+    
+            <h1>LOGIN</h1>
+          
+    
+            <form method="post" action="home.html" onsubmit="return valiadteForm()" name="myForm">
+                <div class="txt_field">
+    
+                    <input type="text" required class="fname">
+                    <span></span>
+                    <label>Username <i class="fas fa-user-circle"></i></label>
+                </div>
+
+                <div class="txt_field">
+                    <input type="password" required id="password" class="fname"> <i class="fa fa-eye" onclick="myFunctio(this)"></i>
+                    <span> </span>
+                    <label for="">Password <i class="fa fa-lock"></i>
+                    </label>
+                </div>
+    
+                <div class="pass"> 
+                    <a href="forget.html" class="pass">Forgot Password?</a> 
+                </div>
+    
+             
+                                    
+              
+    
+    
+                <button type="submit" class="login" value="submit">LOGIN</button>
+    
+                <div class="signup_link">
+                    <p>Not a member?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="new.html" target="_blank" >Signup</a></p>
+                </div>
+
+                <p class="p">For more info<a href="contactus.html" class="a">Contact Us</a></p>
+
+
+            </form>
+        </div>
+    
+</body>
+<script type="text/javascript" src="index.js"></script>
+
+</html>
